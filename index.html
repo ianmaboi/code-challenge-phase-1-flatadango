@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatdango - Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Flatdango - Movie Ticket Booking</h1>
+    </header>
+    <main>
+        <section class="movie-details">
+            <div class="poster">
+                <img src="skydivers.jpg" alt="Movie Poster">
+            </div>
+            <div class="info">
+                <h2 class="movie-title"></h2>
+                <p>Runtime: <span class="movie-runtime"></span> minutes</p>
+                <p>Showtime: <span class="movie-showtime"></span></p>
+                <p>Available Tickets: <span class="available-tickets"></span></p>
+                <button class="buy-ticket" onclick="buyTicket()">Buy Ticket</button>
+            </div>
+        </section>
+        <section class="movie-menu">
+            <h2>Movie Menu</h2>
+            <ul id="films">
+                <!-- Movies will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
